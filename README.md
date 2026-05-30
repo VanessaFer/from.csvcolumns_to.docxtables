@@ -10,6 +10,11 @@ a clean, one-record-per-page document.
 This script was developed for a museum, to automate the creation of 
 catalogue sheets for a collection of artefacts.
 
+## Example Output
+Each row of the CSV generates a formatted page like the one below:
+
+![Example output](example_output.jpg)
+
 ## How It Works
 1. The CSV file is read with Pandas
 2. Column names are normalised for consistency
